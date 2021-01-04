@@ -16,6 +16,5 @@ def sumList(lst):
         return lst[0] + sumList(lst[1:])
 
 def test():
-	lst = [7, 5, 4, 27, 52, 42, 13, 17]
-	print sumList(lsst)
+	print(sumList([7, 5, 4, 27, 52, 42, 13, 17]))
 test()
